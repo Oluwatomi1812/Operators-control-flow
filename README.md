@@ -1,8 +1,13 @@
 1)1. Arithmetic Operators - (+, -, *, /, %, **, ++, --)
+
   2. Assignment Operators - (=, +=, -=, *=, /=, %=)
+
   3. Comparision Operators - ( <, >, <=, >=, ==, ===, !==)
+
   4. Logical Operators - (&&, ||)
+
   5. Bitwise Operators - (&, |, ~)
+  
 2)a.)Arithmetic Operators
     let x = 20;
     let y = 40;
@@ -32,5 +37,5 @@
 4) i =1
   then, i = 1+7 =8
   then, i = 8+7 = 15 
-  
+
   result: 1, 8, 15
