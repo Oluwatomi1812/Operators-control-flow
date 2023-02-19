@@ -48,7 +48,7 @@
 
     console.log(0011 & 0101)
 
-    console.log(0011 | 0101
+    console.log(0011 | 0101)
 4) i =1
 
    then, i = 1+7 =8
@@ -56,3 +56,10 @@
    then, i = 8+7 = 15 
 
    result: 1, 8, 15
+   console.log('The number ' + pwr + ' is the power of 2 nearest to ' + num)
+   do{  
+    pwr *= exponent;
+} while(pwr > num) 
+console.log('The number ' + pwr + ' is the power of 2 nearest to ' + num)
+
+console.log(pwr)
