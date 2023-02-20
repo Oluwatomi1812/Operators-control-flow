@@ -12,20 +12,16 @@ else if (classGroup ==='Arts') {
 else{
     console.log('English, Mathematics');
 }
-let num = 1023;
-let pwr = 2;
-while (pwr < num){ 
-    pwr *= 2;
-    if(pwr >= (num/2)){
+
+
+let num = 76;
+let power = 0.5;
+while(power < num){
+    power *= 2;
+    if(power >= num/2) {
         break;
     }
 }
-
-let double = pwr*2;
-if ((double - num) < (num -pwr)){
-    console.log(double)
-}
-else if((double - num) === (num - pwr)){
-    console.log(pwr)
-}
-else{console.log(pwr)} 
+let double = power * 2;
+let pwr = (num - power <= double - num) ? power : double;
+console.log('The number ' + pwr + ' is the power of 2 nearest to ' + num + '.')
