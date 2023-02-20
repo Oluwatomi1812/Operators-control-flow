@@ -14,7 +14,7 @@ else{
 }
 
 
-let num = 76;
+let num = 3;
 let power = 0.5;
 while(power < num){
     power *= 2;
