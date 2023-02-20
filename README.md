@@ -56,17 +56,3 @@
    then, i = 8+7 = 15 
 
    result: 1, 8, 15
-  
-let num = 1030;
-let exponent = 1;
-
-    let power=  2 ** exponent;
-while (num<0){ 
-    exponent++;
-    if(power >= (num/2)){
-        break;
-    }
-    let double = power*2;
-     let pwr = (double - num) < (num -power) ? double : power;
-
-}
